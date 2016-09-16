@@ -1,0 +1,15 @@
+== BucketToStorageUpload
+
+Peer Rails <peer@omck.ws>
+
+.Feature list
+- get video list
+- find nonarchived
+- take array of tokens
+- get path list
+- upload to remote storage server (my PC >_>)
+
+.Storage server
+- simple upload
+- auth token
+
