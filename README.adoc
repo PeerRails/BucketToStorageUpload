@@ -6,10 +6,19 @@ Peer Rails <peer@omck.ws>
 - get video list with nonarchived tag ✔
 - take array of tokens ✔
 - get path list ✔
-- upload to remote service *UPLOAD_SERVICE*
+- upload to remote service *UPLOAD_SERVICE* ✔
 
 .Storage server
-- upload to file system
+- move files ✔
 - simple upload
-- auth token
 
+.Environment variables
+- UPLOAD_PATH
+- UPLOAD_SEVICE
+- OMCK_KEY
+- OMCK_HOST
+
+.Install
+- bundle install
+- Set OMCK_KEY and OMCK_HOST
+- run ruby daemon.rb start
